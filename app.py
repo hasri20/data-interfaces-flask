@@ -16,5 +16,10 @@ def index():
 	else:
 		return render_template('index.html')
 
+@app.errorhandler(500)
+def connection_time_out(e):
+    # note that we set the 404 status explicitly
+    return render_template('500.html'), 500
+
 if __name__ == "__main__":
-	app.run(debug=True,port=8080)
+	app.run(host='0.0.0.0', port=8080)
