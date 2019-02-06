@@ -1,0 +1,11 @@
+Value interface (\S+)
+Value mac (\S+)
+Value address (\S+)
+Value mtu (\d+)
+Value bandwith (\d+)
+
+Start
+	^${interface}\sis.*
+	^\s+Hardware\s\w+\s+\w+\W+\w+\s+\w+\s+${mac}
+	^\s+Internet\s+address\s+is\s+${address}
+	^\s+MTU\s+${mtu}.+\s+BW\s+${bandwith} -> Record
