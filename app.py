@@ -18,7 +18,6 @@ def index():
 
 @app.errorhandler(500)
 def connection_time_out(e):
-    # note that we set the 404 status explicitly
     return render_template('500.html'), 500
 
 if __name__ == "__main__":
