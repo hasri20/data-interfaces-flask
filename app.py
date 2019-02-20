@@ -11,7 +11,7 @@ def redirect_to_index():
 def index():
 	if request.method == 'POST':
 		result = request.form.to_dict()
-		cisco = router('cisco_ios', result['hostname'], result['username'], result['password'])
+		cisco = router('cisco_ios', result['hostname'], result['username'], result['password'] , result['port'])
 		return render_template('index.html',result=cisco.connect())
 	else:
 		return render_template('index.html')

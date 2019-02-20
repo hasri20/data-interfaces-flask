@@ -3,11 +3,12 @@ import textfsm
 
 class router(object):
 
-	def __init__(self,device_type,ip,username,password):
+	def __init__(self,device_type,ip,username,password,port):
 		self.device_type = device_type
 		self.ip = ip
 		self.username = username
 		self.password = password
+		self.port = port
 
 	def connect(self):
 
@@ -16,6 +17,7 @@ class router(object):
     		'ip': self.ip,
     		'username':self.username,
     		'password': self.password,
+			'port': self.port
 			}
 
 		net_connect = ConnectHandler(**cisco_vios)
