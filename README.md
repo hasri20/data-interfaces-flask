@@ -1,6 +1,7 @@
 # data-interfaces-flask
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/hasri20/data-interfaces-flask)
-![screenshot_2019-02-06 data interfaces](https://user-images.githubusercontent.com/19608381/52325337-3c8d0500-2a17-11e9-9651-74ed9567c15b.png)
+
+![screenshot_2019-02-20_10-50-57](https://user-images.githubusercontent.com/19608381/53065397-13cc3b80-34fe-11e9-957a-41444ba38507.png)
+
 
 Display cisco router and switch interfaces information using Flask. Simple usage, just set up ssh on your router and sign in with this website.
 
