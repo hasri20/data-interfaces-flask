@@ -21,5 +21,5 @@ cd data-interfaces-flask
 python3 app.py
 ```
 ```
-open browser http://127.0.0.1:8080/
+Open 0.0.0.0:8080 in browser
 ```
