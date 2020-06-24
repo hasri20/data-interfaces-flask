@@ -18,6 +18,7 @@ Display Cisco IOS router and switch interfaces information using Flask. Simple u
 ```
 git clone https://github.com/hasri20/data-interfaces-flask/
 cd data-interfaces-flask
+pip3 install -r requirements.txt
 python3 app.py
 ```
 
@@ -31,6 +32,6 @@ The required information from the sandbox environment is provided here for conve
 
 - Hostname: ios-xe-mgmt.cisco.com
 - SSH Port: 8181
-- Username: root
-- Password: D_Vay!_10&
+- Username: developer
+- Password: C1sco12345
 
